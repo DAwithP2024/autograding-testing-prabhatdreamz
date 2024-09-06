@@ -5,7 +5,7 @@ def run_student_script(inputs):
     try:
         # Run the student's script using subprocess
         process = subprocess.Popen(
-            ['python3', 'string_and_loop.py'],  # Adjust the path if necessary
+            ['python3', 'password_validation.py'],  # Adjust the path if necessary
             stdin=subprocess.PIPE,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
